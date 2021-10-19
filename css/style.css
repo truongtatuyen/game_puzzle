@@ -50,7 +50,6 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    padding-top: 10vh;
     overflow: hidden;
     box-sizing: border-box;
     background: linear-gradient(#25364f, #4d71a5);
