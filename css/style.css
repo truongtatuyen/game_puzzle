@@ -1,0 +1,92 @@
+.hidden{display: none!important;}
+/* btn-u-first */
+.btn-u-first {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .5s,transform .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    }
+
+    .btn-u-first:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    }
+
+    .btn-u-first:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+    }
+
+    .btn-u-first:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+/* END btn-u-first */
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-top: 10vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: linear-gradient(#25364f, #4d71a5);
+}
+a{
+    cursor: pointer;
+}
+a:hover > img{
+    box-shadow: 0px 0px 15px 0px #fff;
+}
+#Wrapper,
+#winShow{
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+#winShow img{
+    width: 80%;
+    height: 80%;
+    text-shadow: 0px 0px 15px #60ff00;
+}
+#winShow a:hover > img{box-shadow: 0px 0px 15px #60ff00;}
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0px 0px 12px #eee;
+    cursor: context-menu;
+}
+h1.win{text-shadow: 0px 0px 15px #60ff00;}
+img{
+    width: 100%;
+    height: 6.2em;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #fff;
+    margin-bottom: 2px;
+    transition: box-shadow .5s;
+}

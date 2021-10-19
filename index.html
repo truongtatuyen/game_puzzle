@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Puzzle</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 id="gameTitle">Game Puzzle</h1>
+    <div id="Wrapper">
+        <div class="imgBox">
+            <a onclick="changePic(this);" data-pic="1" data-part="1">
+                <img src="images/XZpic1FD/part_1_XXpic1FL.png">
+            </a>
+        </div>
+        <div class="imgBox">
+            <a onclick="changePic(this);" data-pic="1" data-part="2">
+                <img src="images/XZpic1FD/part_2_XXpic1FL.png">
+            </a>
+        </div>
+        <div class="imgBox">
+            <a onclick="changePic(this);" data-pic="1" data-part="3">
+                <img src="images/XZpic1FD/part_3_XXpic1FL.png">
+            </a>
+        </div>
+        <div class="imgBox">
+            <a onclick="changePic(this);" data-pic="1" data-part="4">
+                <img src="images/XZpic1FD/part_4_XXpic1FL.png">
+            </a>
+        </div>
+        <div class="imgBox">
+            <a onclick="changePic(this);" data-pic="1" data-part="5">
+                <img src="images/XZpic1FD/part_5_XXpic1FL.png">
+            </a>
+        </div>
+    </div>
+
+    <div id="winShow" class="hidden">
+        <a title="Click to download" download>
+            <img>
+        </a>
+        <div>
+            <input class="btn-u-first" type="button" value="New Game ^.^" onclick="location.reload();">
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
